@@ -1,7 +1,7 @@
 
 from flask import Flask, request
 from flask_cors import CORS
-from twilio.twiml.voice_response import VoiceResponse, Gather
+
 from utils.stories import load_story
 from utils.call import answer_call,read_story
 from dotenv import load_dotenv
